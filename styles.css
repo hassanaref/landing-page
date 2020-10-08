@@ -1,0 +1,41 @@
+body 
+    {
+
+        background: rgb(238,174,202);
+        background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+
+    }
+
+.container
+    {
+        padding-top: 40px;
+    }
+#nav-bar{
+    background-color: #1a1a1a;
+    top:0;
+    left:0;
+    position:fixed;
+    margin: 0;
+    list-style-type: none;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.nav-span
+    {
+        color: #ebddb9;
+        padding : 30px;
+        font-size: 100%;
+    }
+
+.sections
+    {
+        width: 840px;
+        height: 620px;
+    }
+
+.conts
+    {
+        font-size : 30px
+    }
