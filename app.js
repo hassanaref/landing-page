@@ -17,24 +17,24 @@ sections.forEach(sections => {
 
         //highlighting viewed section by observer
 
-let options = {
-    root: null,
-    rootMargin: '-375px',
-    threshold: 0
-  }
+        let options = {
+            root: null,
+            rootMargin: '-360px',
+            threshold: 1
+          }
+                    
+        var observer = new IntersectionObserver(function(entries,observer){
+            console.log(entries)
             
-var observer = new IntersectionObserver(function(entries,observer){
-    
-    entries.forEach( entry => {
-        if(!entry.isIntersecting){
-            return;
-        }
-
-        entry.target.classList.toggle("active");
-        observer.unobserve(entry.target)
-    });
-
-}, options);
+            entries.forEach( entry => {
+                if(entry.isIntersecting){
+                    entry.target.classList.add("active");
+                } else {
+                    entry.target.classList.remove("active");
+                }
+            });
+        
+        }, options);
 
 sections.forEach( section => {
 
