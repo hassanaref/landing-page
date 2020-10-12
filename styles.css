@@ -11,6 +11,7 @@ body
         padding-top: 40px;
     }
 #nav-bar{
+    
     background-color: #1a1a1a;
     top:0;
     left:0;
@@ -22,19 +23,28 @@ body
     padding-bottom: 15px;
 }
 
-.nav-span
+
+a
     {
+        display: inline;
         color: #ebddb9;
         padding : 30px;
         font-size: 100%;
     }
+
+
 
 .sections
     {
         width: 840px;
         height: 620px;
     }
-
+.active
+    {
+        padding : 30px;
+        font-size: 120%;
+        font-family: Impact, Charcoal, sans-serif;
+    }
 .conts
     {
         font-size : 30px
