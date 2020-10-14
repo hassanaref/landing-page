@@ -37,14 +37,22 @@ a
         padding : 30px;
         padding-bottom: 15px;
         font-size: 100%;
+        text-decoration: none; 
     }
 
+a:active
+    {
+    background-color: burlywood;
+    color : #1a1a1a;
+    font-family: Impact, Charcoal, sans-serif;
+    }
 
 
 .sections
     {
         width: 840px;
         height: 620px;
+        margin-top: 30px;
     }
 .active
     {
@@ -60,4 +68,6 @@ a
 .activeNav
     {
         background-color: burlywood;
+        color : #1a1a1a;
+        font-family: Impact, Charcoal, sans-serif;
     }
