@@ -26,7 +26,6 @@ let navL = Array.from(document.querySelectorAll('.navEl'));
           }
                     
         let observer = new IntersectionObserver(function(entries,observer){
-            console.log(entries)
             
             entries.forEach( entry => {
                 if(entry.isIntersecting){
