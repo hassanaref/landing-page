@@ -21,7 +21,13 @@ body
     width: 100%;
     padding-top: 15px;
     padding-bottom: 15px;
+    height: 17px;
 }
+
+span    
+    {
+        color: brown;
+    }
 
 
 a
@@ -29,6 +35,7 @@ a
         display: inline;
         color: #ebddb9;
         padding : 30px;
+        padding-bottom: 15px;
         font-size: 100%;
     }
 
@@ -42,10 +49,15 @@ a
 .active
     {
         padding : 30px;
-        font-size: 120%;
+        font-size: 100%;
         font-family: Impact, Charcoal, sans-serif;
     }
 .conts
     {
         font-size : 30px
+    }
+
+.activeNav
+    {
+        background-color: burlywood;
     }
