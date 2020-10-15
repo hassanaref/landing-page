@@ -22,7 +22,7 @@ let navL = Array.from(document.querySelectorAll('.navEl'));
         let options = {
             root: null,
             rootMargin: '150px',
-            threshold: 0.85
+            threshold: 0.80
           }
                     
         let observer = new IntersectionObserver(function(entries,observer){
